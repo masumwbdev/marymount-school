@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Notice = () => {
+const Downloads = () => {
     return (
         <div className='home-card-style mt-4'>
-            <h1>Notice board</h1>
+            <h1>Downloads</h1>
         </div>
     );
 };
 
-export default Notice;
+export default Downloads;

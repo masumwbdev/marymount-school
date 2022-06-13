@@ -6,8 +6,8 @@ const Navbar = () => {
     return (
         <div className='nav-container'>
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <span>logo</span>
+                <div class="container-fluid width-control">
+                    <h6 className='text-light'>Logo</h6>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

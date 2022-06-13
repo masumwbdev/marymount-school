@@ -1,0 +1,16 @@
+.home-layout {
+    width: 100%;
+}
+
+.first-layout {
+    width: 78%;
+}
+
+.second-layout {
+    width: 20%;
+}
+
+.width-control {
+    width: 95%;
+    margin: 0 auto;
+}
