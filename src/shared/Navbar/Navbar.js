@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='nav-container'>
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <span>logo</span>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -17,22 +17,22 @@ const Navbar = () => {
                                 <Link to='/home'>প্রথম পাতা</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/home'>পরিচিতি</Link>
+                                <Link to='/introduction'>পরিচিতি</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/home'>শিক্ষক-শিক্ষিকা</Link>
+                                <Link to='/teachers'>শিক্ষক-শিক্ষিকা</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/home'>শিক্ষার্থী</Link>
+                                <Link to='/students'>শিক্ষার্থী</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/home'>পরীক্ষার ফলাফল</Link>
+                                <Link to='/results'>পরীক্ষার ফলাফল</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/home'>ছবির গ্যালারি</Link>
+                                <Link to='/gallery'>ছবির গ্যালারি</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/home'>যোগাযোগ</Link>
+                                <Link to='/contact'>যোগাযোগ</Link>
                             </li>
                         </ul>
                     </div>

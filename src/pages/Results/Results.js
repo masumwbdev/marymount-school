@@ -3,15 +3,15 @@ import Banner from '../../shared/Banner/Banner';
 import Footer from '../../shared/Footer/Footer';
 import Navbar from '../../shared/Navbar/Navbar';
 
-const Introduction = () => {
+const Results = () => {
     return (
         <div>
             <Banner />
             <Navbar />
-            <h1>পরিচিতি</h1>
+            <h1>results</h1>
             <Footer />
         </div>
     );
 };
 
-export default Introduction;
+export default Results;
