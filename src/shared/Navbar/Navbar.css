@@ -1,0 +1,15 @@
+.nav-container nav{
+    background-color: rgb(81, 7, 179);
+}
+.nav-container nav ul li a{
+    text-decoration: none;
+    margin-left: 22px;
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+}
+.nav-container nav ul li a:hover{
+    background-color: rgb(71, 12, 150);
+    border-radius: 2px;
+    color: white;
+}
