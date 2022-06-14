@@ -18,7 +18,7 @@ const Home = () => {
             <Banner />
             <Navbar />
             <div className="home-container pt-5">
-                <div className='home-layout d-flex justify-content-between width-control'>
+                <div className='layout d-flex justify-content-between width-control'>
                     <div className='first-layout'>
                         <GoldenJubilee />
                         <Notice />
