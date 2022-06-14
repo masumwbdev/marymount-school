@@ -17,18 +17,20 @@ const Home = () => {
         <div>
             <Banner />
             <Navbar />
-            <div className='mt-5 home-layout d-flex justify-content-between width-control'>
-                <div className='first-layout'>
-                    <GoldenJubilee />
-                    <Notice />
-                    <News />
-                    <Downloads />
-                </div>
-                <div className='second-layout'>
-                    <HeadTeacher />
-                    <Eservices />
-                    <Links />
-                    <WebMaster />
+            <div className="home-container pt-5">
+                <div className='home-layout d-flex justify-content-between width-control'>
+                    <div className='first-layout'>
+                        <GoldenJubilee />
+                        <Notice />
+                        <News />
+                        <Downloads />
+                    </div>
+                    <div className='second-layout'>
+                        <HeadTeacher />
+                        <Eservices />
+                        <Links />
+                        <WebMaster />
+                    </div>
                 </div>
             </div>
             <Footer />

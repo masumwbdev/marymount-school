@@ -1,0 +1,11 @@
+.home-heading{
+    background-color: rgb(71, 12, 150);
+    color: white;
+    text-align: center;
+    padding: 6px 0;
+}
+.head-container p{
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 500;
+}
