@@ -1,4 +1,5 @@
 import React from 'react';
+import TeachersApi from '../../apis/TeachersApi/TeachersApi';
 import Banner from '../../shared/Banner/Banner';
 import Footer from '../../shared/Footer/Footer';
 import Navbar from '../../shared/Navbar/Navbar';
@@ -8,7 +9,7 @@ const Teachers = () => {
         <div>
             <Banner />
             <Navbar />
-            <h1>teachers</h1>
+            <TeachersApi />
             <Footer />
         </div>
     );
