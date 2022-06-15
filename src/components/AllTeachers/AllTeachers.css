@@ -1,0 +1,21 @@
+.all-teachers h6{
+    font-weight: 500;
+    color: rgb(71, 12, 150);
+}
+.all-teachers p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.all-teachers small{
+    font-weight: 600;
+    font-size: 12px;
+}
+.at-img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.all-teachers .card{
+    border-radius: 12px;
+}
