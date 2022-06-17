@@ -1,0 +1,17 @@
+.find-stu-tag{
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 12px;
+}
+.student-api select{
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.student-api option{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(71, 12, 150);
+}

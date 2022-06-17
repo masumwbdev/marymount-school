@@ -1,0 +1,7 @@
+.stu-card{
+    border-bottom: 3px solid rgb(71, 12, 150) !important;
+}
+.stu-card p{
+    font-weight: 500;
+    font-size: 13px;
+}
