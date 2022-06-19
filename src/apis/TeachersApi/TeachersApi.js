@@ -21,7 +21,7 @@ const TeachersApi = () => {
                     <h5 className='fw-bold'>শিক্ষকদের তালিকা : </h5>
                 </div>
                 <div>
-                    <input className='border-0 rounded p-1' onChange={handleSearch} type="text" placeholder='অনুসন্ধান করুন . . . ' />
+                    <input className='border-0 rounded p-1' onChange={handleSearch} type="text" placeholder='অনুসন্ধান করুন....' />
                 </div>
             </div>
             <div class="mb-5 row row-cols-2 row-cols-md-5 g-3">
