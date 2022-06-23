@@ -13,7 +13,7 @@ const Gallery = () => {
         <div>
             <Banner />
             <Navbar />
-            <div className='layout d-flex justify-content-between width-control mt-5 mb-5'>
+            <div className='layout d-lg-flex justify-content-between width-control mt-5 mb-5'>
                 <div className='first-layout'>
                     <Lightbox />
                 </div>

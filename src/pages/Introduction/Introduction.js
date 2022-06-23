@@ -14,7 +14,7 @@ const Introduction = () => {
         <div>
             <Banner />
             <Navbar />
-            <div className='layout d-flex justify-content-between width-control'>
+            <div className='layout d-lg-flex justify-content-between width-control'>
                     <div className='first-layout'>
                     <IntroTable />
             <IntroHistory />

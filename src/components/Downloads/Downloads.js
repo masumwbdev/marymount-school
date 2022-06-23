@@ -10,7 +10,7 @@ const Downloads = () => {
                     <img className='notice-img' src={downloads} alt="" />
                 </div>
                 <div className='col-lg-8'>
-                    <h5>নোটিশ বোর্ড</h5>
+                    <h5>ডাউনলোড</h5>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item mb-2">
                             <Link to='/home'>২০২২ শিক্ষাবর্ষে অপেক্ষমান তালিকা হতে শিক্ষার্থী ভর্তি সংক্রান্ত নোটিশ</Link>

@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footer-container'>
-            <div className='width-control mt-5 d-flex justify-content-between'>
+            <div className='width-control mt-5 d-lg-flex justify-content-between'>
             <div>
                 <h6>কারিগরি সহায়তায়:</h6>
                 <h6>কর্পোরেট সিস্টেম সলিউশনস লিমিটেড</h6>

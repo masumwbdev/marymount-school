@@ -14,7 +14,7 @@ const Contact = () => {
             <Banner />
             <Navbar />
 
-            <div className='layout d-flex justify-content-between width-control mt-5 mb-5 contact'>
+            <div className='layout d-lg-flex justify-content-between width-control mt-5 mb-5 contact'>
                 <div className='first-layout'>
                     <h6>যোগাযোগ : </h6>
                     <div className="contact-table text-center">

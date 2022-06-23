@@ -18,3 +18,19 @@
 .home-container {
     background-color: rgb(225, 225, 252);
 }
+
+@media only screen and (max-width: 599px) {
+
+    .first-layout,
+    .second-layout {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+
+    .first-layout,
+    .second-layout {
+        width: 100%;
+    }
+}

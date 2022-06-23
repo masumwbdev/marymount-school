@@ -16,7 +16,7 @@ const TeachersApi = () => {
 
     return (
         <>
-            <div className='d-flex align-items-center justify-content-between mb-3'>
+            <div className='d-lg-flex align-items-center justify-content-between mb-3'>
                 <div>
                     <h5 className='fw-bold'>শিক্ষকদের তালিকা : </h5>
                 </div>
@@ -24,7 +24,7 @@ const TeachersApi = () => {
                     <input className='border-0 rounded p-1' onChange={handleSearch} type="text" placeholder='অনুসন্ধান করুন....' />
                 </div>
             </div>
-            <div class="mb-5 row row-cols-2 row-cols-md-5 g-3">
+            <div class="mb-5 row row-cols-xm-1 row-cols-sm-2 row-cols-md-5 g-2 text-sm-center">
                 {
                     (teachers.filter((value) => {
                         if (searchData === "") {
