@@ -1,0 +1,18 @@
+.contact-table table{
+    width: 100%;
+    text-align: center;
+}
+.contact-table table td{
+    border: 2px solid rgb(71, 12, 150);
+}
+.contact h6{
+    font-weight: 600;
+}
+.contact tr:hover{
+    background-color: rgb(71, 12, 150);
+    color: white;
+}
+.contact td{
+    font-size: 16px;
+    font-weight: 600;
+}

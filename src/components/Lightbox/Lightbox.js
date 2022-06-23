@@ -55,7 +55,10 @@ const Lightbox = () => {
         <div>
             <div className={pic ? "pic open" : 'pic'}>
                 <img src={tempImg} alt="#" />
-                <button onClick={() => setPic(false)} className='close-btn'>close</button>
+                {/* <button onClick={() => setPic(false)} className='close-btn'>close</button> */}
+                <button onClick={() => setPic(false)} className='close-btn fw-bold' type="button" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
 
             </div>
             <div className='lightbox'>

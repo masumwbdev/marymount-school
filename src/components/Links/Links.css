@@ -1,0 +1,10 @@
+.important-links ul li a{
+    text-decoration: none;
+    color: rgb(6, 73, 173);
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 1px dotted rgb(6, 73, 173);
+}
+.important-links ul li a:hover{
+    color: rgb(71, 12, 150);
+}

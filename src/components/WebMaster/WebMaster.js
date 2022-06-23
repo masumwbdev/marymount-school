@@ -1,10 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const WebMaster = () => {
     return (
-        <div>
+        <div className='important-links mb-4'>
             <h6 className='home-heading'>ওয়েব মাস্টার</h6>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id voluptates voluptas beatae!</p>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <Link to='/home'>ওয়েব মাস্টার লগইন</Link>
+                </li>
+            </ul>
         </div>
     );
 };

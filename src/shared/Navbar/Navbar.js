@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='nav-container'>
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid width-control">
-                    <h6 className='text-light'>Logo</h6>
+                    <h6 className='text-light'>মেরিমাউন্ট</h6>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -24,9 +24,6 @@ const Navbar = () => {
                             </li>
                             <li class="nav-item">
                                 <Link to='/students'>শিক্ষার্থী</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link to='/results'>পরীক্ষার ফলাফল</Link>
                             </li>
                             <li class="nav-item">
                                 <Link to='/gallery'>ছবির গ্যালারি</Link>

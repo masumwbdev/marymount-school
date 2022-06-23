@@ -4,7 +4,6 @@ import Eservices from '../../components/Eservices/Eservices';
 import GoldenJubilee from '../../components/GoldenJubilee/GoldenJubilee';
 import HeadTeacher from '../../components/HeadTeacher/HeadTeacher';
 import Links from '../../components/Links/Links';
-import News from '../../components/News/News';
 import Notice from '../../components/Notice/Notice';
 import WebMaster from '../../components/WebMaster/WebMaster';
 import Banner from '../../shared/Banner/Banner';
@@ -22,7 +21,6 @@ const Home = () => {
                     <div className='first-layout'>
                         <GoldenJubilee />
                         <Notice />
-                        <News />
                         <Downloads />
                     </div>
                     <div className='second-layout'>

@@ -22,7 +22,7 @@ const IntroTable = () => {
                         </tr>
                         <tr>
                             <th scope="row">জেলা :	</th>
-                            <td colspan="2">ময়মনসিংহ</td>
+                            <td colspan="2">মেরিমাউন্ট</td>
                         </tr>
                         <tr>
                             <th scope="row">Website :</th>

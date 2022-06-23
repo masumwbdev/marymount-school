@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const GoldenJubilee = () => {
     return (
-        <div className='home-card-style hvr-underline-from-left'>
+        <div className='card-style hvr-underline-from-left'>
             <div className="row">
                 <div className='col-lg-4'>
                     <img className='img-fluid' src={suvorno} alt="" />

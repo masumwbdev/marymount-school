@@ -1,4 +1,4 @@
-.home-card-style {
+.card-style {
     padding: 10px;
     background-color: #fff;
     border-radius: 6px;
@@ -36,4 +36,7 @@
 .hvr-underline-from-left:focus:before,
 .hvr-underline-from-left:active:before {
     right: 0;
+}
+.card-style a{
+    text-decoration: none;
 }
